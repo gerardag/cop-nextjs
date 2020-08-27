@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Header from 'components/molecules/header';
-import Joke from 'components/molecules/joke';
-
 import styles from 'styles/Home.module.css';
 
 export default function Home({ joke }) {
@@ -27,9 +24,6 @@ export default function Home({ joke }) {
             <li><Link href="/thanks/"><a>Fin</a></Link></li>
           </ol>
         </nav>
-
-        {/* Joke */}
-        <Joke setup={joke.setup} punchline={joke.punchline} />
       </main>
     </div>
   )

@@ -16,9 +16,7 @@ export default function StaticFileServing() {
               <li>Polyfills</li>
               <li>Routing</li>
               <li><Link href="/apiroutes/"><a>API Routes</a></Link></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Muchas más cosas...</li>
             </ul>
           </section>
         </main>

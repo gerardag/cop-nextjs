@@ -14,13 +14,13 @@ export default function Nextjs() {
               Javscript, API, Markup: no es más que tener un contenido pre-renderizado y servido al cliente de una manera "estática".
               <br />
               Beneficios:
-              <ul>
-                <li>Seguridad</li>
-                <li>Escalabilidad</li>
-                <li>Más barata de mantener</li>
-                <li>Mejor rendimiento</li>
-              </ul>
             </p>
+            <ul>
+              <li>Seguridad</li>
+              <li>Escalabilidad</li>
+              <li>Más barata de mantener</li>
+              <li>Mejor rendimiento</li>
+            </ul>
             <p>Players más conocidos: Hugo, Gatsby, Next, Nuxt...</p>
             <p>
               <small>Más información en <a href="https://jamstack.org/">https://jamstack.org/</a></small>
