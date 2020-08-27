@@ -23,6 +23,7 @@ export default function Home({ joke }) {
             <li>¿Que es <Link href="/nextjs/"><a>Next.JS</a></Link>?</li>
             <li><Link href="/pages/"><a>Pages</a></Link></li>
             <li><Link href="/prerendering/"><a>Pre-rendering</a></Link></li>
+            <li><Link href="/specs/"><a>Caracteristicas</a></Link></li>
           </ol>
         </nav>
 
