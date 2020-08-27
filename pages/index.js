@@ -24,6 +24,7 @@ export default function Home({ joke }) {
             <li><Link href="/pages/"><a>Pages</a></Link></li>
             <li><Link href="/prerendering/"><a>Pre-rendering</a></Link></li>
             <li><Link href="/specs/"><a>Caracteristicas</a></Link></li>
+            <li><Link href="/thanks/"><a>Fin</a></Link></li>
           </ol>
         </nav>
 
