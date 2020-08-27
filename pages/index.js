@@ -15,14 +15,14 @@ export default function Home({ joke }) {
       </Head>
 
       <main className={styles.main}>
-        <Header />
-
+        <h1>CoP NextJS</h1>
         {/* Summary */}
         <nav className={styles.summary}>
           <ol>
             <li><Link href="/jamstack/"><a>JAM stack</a></Link></li>
             <li>¿Que es <Link href="/nextjs/"><a>Next.JS</a></Link>?</li>
-            <li>Pre-renderizado</li>
+            <li><Link href="/pages/"><a>Pages</a></Link></li>
+            <li><Link href="/prerendering/"><a>Pre-rendering</a></Link></li>
           </ol>
         </nav>
 

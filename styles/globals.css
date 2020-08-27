@@ -34,12 +34,17 @@ a {
 code {
   background-color: #767e75;
   border-radius: 0.8rem;
-  display: flex;
+  display: block;
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 2rem;
   width: 100%;
+}
+
+code span {
+  display: block;
+  margin: 0.5rem 0;
 }
 
 small {
