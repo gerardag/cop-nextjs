@@ -28,15 +28,3 @@ export default function Home({ joke }) {
     </div>
   )
 }
-
-export async function getStaticProps(context) {
-  const req = await fetch('https://official-joke-api.appspot.com/random_joke');
-  const res = await req.json();
-
-  return {
-    props: {
-      joke: res,
-    },
-    revalidate: 60,
-  };
-}

@@ -1,7 +1,7 @@
 import Breadcrumb from 'components/atoms/breadcrumb';
 import Joke from 'components/molecules/joke';
 
-export default function Thanks() {
+export default function Thanks({ joke }) {
   return (
     <>
       <div className="container">
@@ -13,10 +13,24 @@ export default function Thanks() {
               ¿Alguna preegunta?
             </p>
             {/* Joke */}
-            <Joke setup={joke.setup} punchline={joke.punchline} />
+            <Joke punchline={joke.value.joke} />
           </section>
         </main>
       </div>
     </>
   );
+}
+
+export async function getStaticProps(context) {
+  const req = await fetch('http://api.icndb.com/jokes/random');
+  const res = await req.json();
+
+  console.log(res);
+
+  return {
+    props: {
+      joke: res,
+    },
+    revalidate: 60,
+  };
 }

@@ -1,9 +1,8 @@
 const Joke = ({ setup, punchline }) => (
   <>
     <div>
-      <h3>Chiste del día</h3>
       <p>
-        <strong>{setup}</strong><br />
+        <strong>Chiste random:</strong><br />
         {punchline}
       </p>
     </div>
