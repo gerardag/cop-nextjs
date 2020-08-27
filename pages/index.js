@@ -4,7 +4,6 @@ import Link from 'next/link';
 import styles from 'styles/Home.module.css';
 
 export default function Home({ joke }) {
-  console.log('Hola Fernando');
   return (
     <div className="container">
       <Head>

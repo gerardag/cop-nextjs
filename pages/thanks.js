@@ -2,6 +2,8 @@ import Breadcrumb from 'components/atoms/breadcrumb';
 import Joke from 'components/molecules/joke';
 
 export default function Thanks({ joke }) {
+  document.title = 'Hola';
+
   return (
     <>
       <div className="container">
